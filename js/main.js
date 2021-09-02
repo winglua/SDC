@@ -1,28 +1,22 @@
-$(document).ready(function() {
-	$(".brand-slider.owl-carousel").owlCarousel({
-	  	items: 7,
-	  	margin: 30,
-	  	loop: true,
-	  	nav: false,
-	  	dots: false,
-	  	autoplay: true,
-	  	autoplayTimeout: 5000,
-  	});
-  	$('.popup-video').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		mainClass: 'mfp-fade',
-		removalDelay: 160,
-		preloader: false,
+$(function () {
 
-		fixedContentPos: false
-	});
-	$('.counter').counterUp({
-    	delay: 30,
-	    time: 1000
-	});
+    $(".context-faq .title").click(function () {
+
+        $(this).parent().children(".context").slideToggle();
+
+
+
+    });
+
 });
 
-$( document ).ready(function() {
-    new WOW().init();
+
+
+$(function () {
+
+    $("#tabs").tabs();
+
 });
+
+
+
