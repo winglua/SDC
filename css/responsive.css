@@ -16,7 +16,7 @@
 
 @media (max-width: 767px) {}
 
-@media (max-width: 480px) {
+@media (max-width: 440px) {
     .baner-area {
         padding: 50px 20px 20px 20px;
         background-position: right;
@@ -31,6 +31,33 @@
         font-size: 16px;
     }
 
+    .baner-small {
+
+        height: 360px;
+        background-position: top;
+    }
+
+    .baner-small .baner-text h2 {
+        padding-top: 60px;
+    }
+
+    .context-list p {
+        font-size: 18px;
+    }
+
+    .context-list ul {
+        font-size: 18px;
+    }
+
+    .context-faq .context {
+        padding: 20px 20px;
+    }
+
+    .context-faq .title h4 {
+        font-size: 20px;
+        padding: 15px 50px 15px 15px;
+    }
+
     .started-btn a {
         font-size: 15px;
         padding: 20px;
@@ -41,14 +68,81 @@
         padding: 10px;
     }
 
+    .bottom-txt {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-text h2 {
+        font-size: 24px;
+    }
+
+    .section-text p {
+        font-size: 18px;
+    }
+
+    .ui-tabs .ui-tabs-nav li {
+        width: 100%;
+
+    }
+
+    .upload {
+        text-align: center;
+        background: url(../images/upload.png) no-repeat center top;
+    }
+
+    .mb-5 .txt_gray {
+        padding-left: 15px;
+    }
+
+    .btn-cart {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    .hyperlink {
+        font-size: 15px;
+    }
+
+    .article {
+        padding: 10px;
+    }
+
+    .section-text h2 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
     .bannerSDT {
-        height: 1000px;
+        padding: 50px 20px;
+        background-position: bottom;
+        height: 960px;
+    }
+
+    .bannerSDT h1 {
+        font-size: 32px;
     }
 
     .contentSDT {
-        padding: 0 50px;
+        padding: 0 30px;
     }
 
+    .contentSDT .context {
+        padding: 20px;
+    }
+
+    .contentSDT ul {
+        list-style-position: outside;
+    }
+
+    .contentSDT .btn a {
+        font-size: 24px;
+        display: block;
+    }
 }
 
 @media (max-width: 375px) {}

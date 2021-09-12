@@ -45,6 +45,7 @@ ul {
 /* dropmenu*/
 .dropmenu {
     position: relative;
+
 }
 
 .dropmenu:hover .submenu {
@@ -53,21 +54,22 @@ ul {
 }
 
 .dropmenu:hover .submenu a {
-    color: #333;
+    text-decoration: none;
 }
 
 .dropmenu:hover .submenu a:hover {
 
-    color: #B72D2D;
+    text-decoration: underline;
 }
 
 .submenu {
+
     position: absolute;
     left: -20px;
-    top: 20px;
+    top: 25px;
     text-align: left;
     background-color: #fff;
-    padding: 20px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
     width: 320px;
     display: none;
     border-radius: 5px;
@@ -94,6 +96,23 @@ ul {
 .article a,
 .recommend a {
     color: #333;
+
+}
+
+.blog-box {
+    position: relative;
+}
+
+.tag {
+
+    padding: 6px 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
 
 }
 
@@ -263,10 +282,6 @@ ul {
 }
 
 
-
-
-
-
 .date {
     background: url(images/icon-time.svg) no-repeat left center;
 }
@@ -280,10 +295,6 @@ ul {
     height: 16px;
     margin-top: 4px;
 }
-
-
-
-
 
 
 /* training */
@@ -396,7 +407,8 @@ ul {
     border-radius: 10px;
 
 }
-.contentSDT .context p{
+
+.contentSDT .context p {
     margin-bottom: 20px;
 }
 
@@ -413,7 +425,7 @@ ul {
 .contentSDT ul {
     list-style-position: inside;
     color: #B82D2D;
-   
+
     padding: 0;
 }
 
@@ -485,7 +497,7 @@ ul {
 .hader-menu ul li {
     list-style: none;
     display: inline-block;
-    padding: 0px 20px 0 0;
+    padding: 0px 20px 10px 0;
 
 }
 
@@ -523,6 +535,7 @@ ul {
 
 .hader-menu ul li:hover a {
     color: #B72D2D;
+    text-decoration: underline;
 }
 
 .hader-menu ul li.active a {
@@ -702,23 +715,30 @@ ul {
 /* context-list */
 
 .context-list {
-    max-width: 720px;
+    max-width: 960px;
     margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.context-list h2 {
+    color: #B72D2D;
+    margin-bottom: 30px;
 }
 
 .context-list p {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .context-list ul {
     list-style: none;
     line-height: 36px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .context-list ul li {
-    background: url(images/icon-check.svg) no-repeat left center;
-    padding-left: 50px;
+    /*    background: url(images/icon-check.svg) no-repeat left center;*/
+    font-weight: 600;
 }
 
 .about-us {
@@ -1003,7 +1023,7 @@ ul {
 
 .team-box {
     text-align: center;
-    margin-top: 30px;
+    padding: 30px 0;
 }
 
 .team-text h5 {
@@ -1021,7 +1041,7 @@ ul {
 
 .team-text dl {
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .team-text dt {
@@ -1446,7 +1466,7 @@ select,
 textarea {
     height: 48px;
     border-radius: 3px;
-    border: 1px solid #E8ECED;
+    border: 1px solid #B72D2D;
     background-color: #fff;
     width: 100%;
     margin-bottom: 16px;
@@ -1468,4 +1488,28 @@ textarea {
 textarea {
     height: 150px;
     margin-bottom: 20px;
+}
+
+.mobile-nav {
+    list-style: none;
+
+}
+
+.mobile-nav li {
+
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.mobile-nav li a {
+    color: #333;
+    padding: 10px 0;
+    color: #B72D2D;
+
+}
+
+.mobile-subnav a {
+    display: block;
+    text-indent: 20px;
+
 }
