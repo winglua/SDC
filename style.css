@@ -70,7 +70,7 @@ ul {
     text-align: left;
     background-color: #fff;
     padding: 10px 20px 10px 20px;
-    width: 320px;
+    width: 360px;
     display: none;
     border-radius: 5px;
 }
@@ -497,7 +497,7 @@ ul {
 .hader-menu ul li {
     list-style: none;
     display: inline-block;
-    padding: 0px 20px 10px 0;
+    padding: 0px 10px 10px 0;
 
 }
 
@@ -528,7 +528,7 @@ ul {
     text-decoration: none;
     display: inline-block;
     color: #3D3939;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     text-transform: capitalize;
 }
