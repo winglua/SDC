@@ -646,10 +646,61 @@ ul {
     padding-top: 100px;
 }
 
+.baner-area.baner-small {
+    margin-bottom: 0;
+}
+
 .baner-small {
-    height: 400px;
-    padding-top: 140px;
+    height: 740px;
+    padding-top: 50px;
     background-size: cover;
+    color: #333;
+
+}
+
+.baner-small .baner-text h3 {
+    font-size: 48px;
+    font-weight: lighter;
+
+}
+
+.baner-small .baner-text h2 {
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    background: url(images/line-blue.svg) no-repeat left 30px;
+}
+
+.baner-small.banner-s-2 .baner-text h2 {
+    background: url(images/line-red.svg) no-repeat left 30px;
+}
+
+.baner-small.banner-s-3 .baner-text h2 {
+    background: url(images/line-orange.svg) no-repeat left 30px;
+}
+
+.baner-small .baner-text p {
+    font-size: 14px;
+    padding-right: 180px;
+    margin-bottom: 30px;
+
+}
+
+.baner-small .baner-text ul {
+    list-style-image: url(images/check-blue.svg);
+}
+
+.baner-small.banner-s-2 .baner-text ul {
+    list-style-image: url(images/check-red.svg);
+}
+
+.baner-small.banner-s-3 .baner-text ul {
+    list-style-image: url(images/check-orange.svg);
+}
+
+.baner-small .baner-text ul li {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 .banner-s-1 {
@@ -666,10 +717,12 @@ ul {
 
 .banner-s-4 {
     background: url(images/baner-s-4.png) no-repeat left top;
+    height: 280px;
 }
 
 .banner-s-5 {
     background: url(images/baner-s-5.png) no-repeat left top;
+    height: 280px;
 }
 
 .banner-s-6 {
@@ -681,10 +734,6 @@ ul {
     background-size: cover;
     padding: 120px 0;
     color: #fff;
-}
-
-.baner-area .baner-text {
-    text-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
 }
 
 .baner-area.volunteer .baner-text h2 {

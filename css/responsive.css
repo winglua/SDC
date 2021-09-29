@@ -16,11 +16,19 @@
 
 @media (max-width: 767px) {}
 
-@media (max-width: 440px) {
+@media (max-width: 414px) {
+    .col-1 {
+        padding-right: 12px;
+    }
+
     .baner-area {
         padding: 50px 20px 20px 20px;
         background-position: right;
         height: 550px;
+    }
+
+    .baner-area.baner-small {
+        padding-right: 0;
     }
 
     .baner-text h2 {
@@ -32,13 +40,39 @@
     }
 
     .baner-small {
-
-        height: 360px;
+        height: auto;
         background-position: top;
     }
 
     .baner-small .baner-text h2 {
-        padding-top: 60px;
+        padding-bottom: 0px;
+        margin-bottom: 40px;
+        font-size: 32px
+    }
+
+    .baner-small .baner-text h3 {
+        font-size: 24px;
+    }
+
+    .baner-small .baner-text p {
+        padding-right: 0;
+        font-size: 12px;
+    }
+
+    .baner-small .baner-text ul {
+        list-style-position: outside;
+    }
+
+    .baner-small .baner-text ul li {
+        font-size: 14px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .banner-s-1,
+    .banner-s-2,
+    .banner-s-3 {
+        background-position: 0 0;
     }
 
     .context-list p {
